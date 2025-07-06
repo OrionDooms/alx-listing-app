@@ -1,8 +1,8 @@
 import React from 'react';
 
 interface Card_info {
-    title: string;
     image: string;
+    title: string;   
     description: string;
 }
 
