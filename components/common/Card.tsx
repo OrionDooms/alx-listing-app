@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'public/assets'
+import Button from './Button';
 
 interface Card_info {
     image: string;
@@ -17,6 +19,7 @@ export const Card = ({title, image, description}: Card_info) => {
             <h2 className='text-xl font-semibold mb-2'>{title}title</h2>
             <p className="text-gray-600">{description}description</p>
         </div>
+        <Button />
         </div>
     );
 }
